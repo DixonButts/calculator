@@ -1,0 +1,48 @@
+
+th {
+  text-align: left;
+}
+
+.keyNumber {
+  background-color: rgb(158, 148, 148);
+}
+
+.keyAdvanced {
+  background-color: rgb(117, 201, 202);
+}
+
+.key {
+  color: black;
+  background-image: url(3p.jpg);
+  display: block;
+  border-radius: 50px;
+  border:2px solid #000000;
+  padding:5px;
+  width:30px;
+  height:30px;
+  font-size: 20px;
+}
+
+.calculator {
+  background-color: rgb(124, 131, 125);
+  background-image:url(5p.jpg) ;
+  margin: auto;
+  table-layout:fixed;
+  text-align: center;
+  margin-top: 50px;
+  font-family: arial;
+  color:#fff;
+  border-spacing: 3px
+}
+
+.display{
+  font-size: 35px;
+  background-image: url(1p.jpg);
+  height: 40px;
+}
+
+table.calculator,
+table.calculator th, 
+table.calculator td {
+  border: 1px solid black;
+  }

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"
+        title></title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" media="screen" href="style.css">
+        <script type="text/javascript" src="script.js"></script>
+    </head>
+    <body>
+        <table class="calculator">
+            <tr>
+                <td colspan="4" class="display" id="display">Display</td>
+            </tr>
+            <tr>
+                <td colspan="3"><a class="key keyAdvanced" id="keyAC" href="javascript:clearCalculation();">AC</a></td>
+                <td><a class="key key--operator" id="keyDivide" href="javascript:addToCalculation('/');">/</a></td>
+            </tr>
+            <tr>
+                <td><a class="key keyNumber" id="keySeven" href="javascript:addToCalculation('7');">7</a></td>
+                <td><a class="key keyNumber" id="keyEight" href="javascript:addToCalculation('8');">8</a></td>
+                <td><a class="key keyNumber" id="keyNine" href="javascript:addToCalculation('9');">9</a></td>
+                <td><a class="key key--operator" id="keyStar" href="javascript:addToCalculation('*');">*</a></td>
+            </tr>
+            <tr>
+                <td><a class="key keyNumber" id="keyFour" href="javascript:addToCalculation('4');">4</a></td>
+                <td><a class="key keyNumber" id="keyFive" href="javascript:addToCalculation('5');">5</a> </td>
+                <td><a class="key keyNumber" id="keySix" href="javascript:addToCalculation('6')">6</a></td>
+                <td><a class="key key--operator" id="keyMinus" href="javascript:addToCalculation('-');">-</a></td>
+            </tr>
+            <tr>
+                <td><a class="key keyNumber" id="keyOne" href="javascript:addToCalculation('1');">1</a></td>
+                <td><a class="key keyNumber" id="keyTwo" href="javascript:addToCalculation('2');">2</a></td>
+                <td><a class="key keyNumber" id="keyThree" href="javascript:addToCalculation('3');">3</a></td>
+                <td><a class="key key--operator" id="keyPlus" href="javascript:addToCalculation('+');">+</a></td>
+            </tr>
+            <tr>
+                <td colspan="2"><a class="key keyNumber" id="keyZero" href="javascript:addToCalculation('0');">0</a></td>
+                <td> <a class="key" id="keyKomma" href="javascript:addToCalculation(',');">,</a> </td>
+                <td> <a class="key key--operator" id="keyEqual" href="javascript:solveCalculation();">=</a> </td>
+            </tr>
+        </table>    
+    </body>
+</html>
