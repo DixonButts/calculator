@@ -25,7 +25,7 @@ th {
 
 .calculator {
   background-color: rgb(124, 131, 125);
-  background-image:url(5p.jpg) ;
+  background-image:url(p6.jpg) ;
   margin: auto;
   table-layout:fixed;
   text-align: center;
@@ -37,7 +37,7 @@ th {
 
 .display{
   font-size: 35px;
-  background-image: url(1p.jpg);
+  background-image: url(giphy.gif);
   height: 40px;
 }
 
