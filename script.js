@@ -1,5 +1,6 @@
 var calculation = ""
 var result = ""
+var memory = ""
 function addToCalculation(key) {
     calculation = calculation + key
     console.log(calculation)
@@ -32,11 +33,15 @@ function calculationTakeGive() {
     addToCalculation(result)
 }
 
-function calculationTake() {
-    result
-    clearCalculation(result)  
+function calculationStore() {
+    var e = document.getElementById("display")
+    console.log(e)
+    memory = e.innerHTML
+    clearCalculation()  
 }
 
-function calculationGive() {
-    addToCalculation(result)
+function calculationRetrieve() {
+    addToCalculation(memory)
 }
+
+
