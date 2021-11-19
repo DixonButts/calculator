@@ -1,4 +1,5 @@
 var calculation = ""
+var result = ""
 function addToCalculation(key) {
     calculation = calculation + key
     console.log(calculation)
@@ -20,10 +21,15 @@ function clearCalculation() {
 }
 
 function solveCalculation() {
-    var result = eval(calculation)
+    result = eval(calculation)
     clearCalculation()
     var e = document.getElementById("display")
     console.log(e)
     e.innerHTML=result
 }
+
+function calculationTakeGive() {
+    addToCalculation(result)
+}
+
 
