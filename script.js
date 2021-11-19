@@ -21,6 +21,7 @@ function clearCalculation() {
 
 function solveCalculation() {
     var result = eval(calculation)
+    clearCalculation()
     var e = document.getElementById("display")
     console.log(e)
     e.innerHTML=result
