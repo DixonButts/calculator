@@ -22,11 +22,18 @@ function clearCalculation() {
 }
 
 function solveCalculation() {
-    result = eval(calculation)
-    clearCalculation()
-    var e = document.getElementById("display")
-    console.log(e)
-    e.innerHTML=result
+    try {
+        result = eval(calculation)
+        clearCalculation()
+        var e = document.getElementById("display")
+        console.log(e)
+        e.innerHTML=result
+    } catch (e) {
+        var e = document.getElementById("display")
+        console.log(e)
+        e.innerHTML="error"
+    }
+    
 }
 
 function calculationTakeGive() {
