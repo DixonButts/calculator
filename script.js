@@ -32,4 +32,11 @@ function calculationTakeGive() {
     addToCalculation(result)
 }
 
+function calculationTake() {
+    result
+    clearCalculation(result)  
+}
 
+function calculationGive() {
+    addToCalculation(result)
+}
